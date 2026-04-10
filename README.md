@@ -7,10 +7,18 @@
 
 ---
 
+## 推荐模型（重要）
+
+按作者实测，在「读长文 → 抽主题 → 生成合规 Obsidian `.canvas` JSON」这条链路上，**Kimi K2.5（`kimi-2.5`）** 表现**最好**（结构稳、表格与清单完整、更贴 `SKILL.md` 的象限布局）。
+
+**同样支持其它模型**：Claude、GPT、Gemini、通义、DeepSeek 等只要具备长上下文与按规范输出 JSON 的能力，都可直接套用本仓库的 `SKILL.md` / `AGENTS.md`。若输出偏「按章节罗列」，请让模型对照 `AGENTS.md` 改为主题式节点与连线。
+
+---
+
 ## 最简单用法（30 秒）
 
 1. **用 AI 生成 Canvas（推荐）**  
-   把下面这一行丢给 **Cursor、Claude Code、CodeBuddy、小龙虾** 等任意能读网页的 Agent：
+   模型首选 **Kimi K2.5（`kimi-2.5`）**；其它模型亦可。把下面这一行丢给 **Cursor、Claude Code、CodeBuddy、小龙虾** 等任意能读网页的 Agent：
 
    > 请阅读仓库 **https://github.com/fidoyeah/document-to-canvas** 里的 `SKILL.md` 和 `AGENTS.md`，按其中的「主题式 Canvas」规范，把我提供的书籍/文章转成 Obsidian 可用的 `.canvas` JSON，并保存到我指定的路径（需包含 `书/` 或 `文章/` 子目录）。
 
@@ -34,6 +42,7 @@
 |------|-------------------|
 | 学习规范 | `https://github.com/fidoyeah/document-to-canvas` — 请阅读 `SKILL.md`（结构与节点规范）、`AGENTS.md`（实现步骤）、必要时 `README.md`（示例与截图）。 |
 | 只想要最短说明 | 同上链接 + 「按主题式思维导图输出 `.canvas` JSON，不要用章节罗列。」 |
+| 模型选择 | **首选 Kimi K2.5（`kimi-2.5`）**；其它长上下文模型也可，规范相同。 |
 
 Agent 若无法直接克隆，可让其打开 GitHub 上的上述 Markdown 原文。本仓库为 MIT，可自由复制 `SKILL.md` 进你自己的项目或 skills 目录。
 

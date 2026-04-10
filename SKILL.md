@@ -7,6 +7,8 @@ description: 将PDF/EPUB/DOC/TXT/网络文章转换为**主题式**Obsidian Canv
 
 **Author:** [Ryan Chen](https://x.com/fidoyeah)
 
+**模型建议：** 作者实测 **Kimi K2.5（`kimi-2.5`）** 生成主题式 Canvas **效果最佳**；**其它具备长上下文与 JSON 输出能力的模型同样可用**，请完整遵循本文与 `AGENTS.md` 的布局与质检清单。
+
 将各种文档转换为**主题驱动**的思维导图，聚焦核心思想、理论框架和可操作方法，而非简单罗列章节。
 
 ## 核心理念
