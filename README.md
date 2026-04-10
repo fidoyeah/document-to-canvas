@@ -2,7 +2,8 @@
 
 将各种文档（PDF、EPUB、DOC、TXT）和网络文章转换为**主题驱动**的 Obsidian Canvas 思维导图。
 
-**Author:** [Ryan Chen](https://x.com/fidoyeah)
+**Author:** [Ryan Chen](https://x.com/fidoyeah)  
+**Repository:** [github.com/fidoyeah/document-to-canvas](https://github.com/fidoyeah/document-to-canvas)
 
 ## 🎯 核心理念：从"章节罗列"到"主题提取"
 
